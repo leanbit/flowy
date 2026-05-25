@@ -13,8 +13,6 @@ Gem::Specification.new do |spec|
 
   spec.required_ruby_version = '>= 3.2'
 
-  spec.metadata['rubygems_mfa_required'] = 'true'
-
   spec.add_development_dependency 'rspec', '~> 3.13'
 
   spec.files         = Dir['lib/**/*', 'README.md', 'LICENSE.txt']
